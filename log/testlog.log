@@ -1,0 +1,38 @@
+2021-04-27 20:21:39,024 - BaseClass -INFO - entering user id
+2021-04-27 20:21:39,474 - BaseClass -INFO - entering pass
+2021-04-27 20:21:39,617 - BaseClass -INFO - click on login button
+2021-04-27 20:21:40,113 - BaseClass -INFO - verify login details...
+2021-04-27 20:21:42,131 - BaseClass -INFO - accepting the alert..
+2021-04-27 20:52:28,821 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-27 21:19:20,421 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-27 21:31:00,530 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-27 21:31:03,905 - BaseClass -INFO - products are not in sorted order by name..
+2021-04-27 21:33:48,642 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-27 21:33:52,165 - BaseClass -INFO - products are not in sorted order by name..
+2021-04-27 21:35:52,380 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-27 21:35:56,605 - BaseClass -INFO - products are not in sorted order by name..
+2021-04-27 21:37:01,672 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-27 21:37:03,945 - BaseClass -INFO - products are not in sorted order by name..
+2021-04-27 21:39:51,640 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-27 21:39:53,890 - BaseClass -INFO - products are not in sorted order by name..
+2021-04-27 21:40:37,092 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-27 21:40:40,451 - BaseClass -INFO - products are in sorted order by name..
+2021-04-28 01:12:30,580 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-28 01:15:47,950 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-28 01:18:36,510 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-28 01:18:36,517 - BaseClass -INFO - price before
+2021-04-28 01:20:02,134 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-28 01:20:02,142 - BaseClass -INFO - price before
+2021-04-28 01:21:48,668 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-28 01:21:48,679 - BaseClass -INFO - price before
+2021-04-28 01:23:46,645 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-28 01:23:46,657 - BaseClass -INFO - price before
+2021-04-28 01:23:48,658 - BaseClass -INFO - click on xperia..
+2021-04-28 01:23:53,009 - BaseClass -INFO - price after
+2021-04-28 01:30:49,054 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-28 01:30:49,064 - BaseClass -INFO - price before
+2021-04-28 01:30:49,064 - BaseClass -INFO - calculating price before...
+2021-04-28 01:30:51,113 - BaseClass -INFO - click on xperia..
+2021-04-28 01:30:55,394 - BaseClass -INFO - price after
+2021-04-28 01:30:55,467 - BaseClass -INFO - compare price before afters
+2021-04-28 01:30:57,468 - BaseClass -INFO - price are same on both pages..

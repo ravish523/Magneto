@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GuruBanking]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.Eccomerce.Utilities.Reporting"/>
+  </listeners>
+  <test name="BankingApp Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Eccomerce.TestCase.LoginTest"/>
+    </classes>
+  </test> <!-- BankingApp Test -->
+  <test name="BankingApp Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Eccomerce.TestCase.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TestLogin"/>
+        </methods>
+      </class> <!-- com.Eccomerce.TestCase.LoginTest -->
+    </classes>
+  </test> <!-- BankingApp Test(failed) -->
+</suite> <!-- Failed suite [GuruBanking] -->

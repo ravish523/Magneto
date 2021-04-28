@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,16 @@
                       <a href="#" panel-name="suite-Eccomerce" class="show-methods passed suite-Eccomerce"> (show)</a> <!-- show-methods passed suite-Eccomerce -->
                     </span>
                     <div class="method-list-content passed suite-Eccomerce">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eccomerce" title="com.Eccomerce.TestCase.MobileListSortedByName" hash-for-method="MobileSortedByName">MobileSortedByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eccomerce" title="com.Eccomerce.TestCase.TC_003" hash-for-method="VerifyAddMoreProduct">VerifyAddMoreProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Eccomerce" title="com.Eccomerce.TestCase.TC_002" hash-for-method="VerifyCostOfProduct">VerifyCostOfProduct</a> <!-- method navigator-link -->
@@ -120,6 +130,21 @@
           <div class="suite-Eccomerce-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.Eccomerce.TestCase.TC_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddMoreProduct">
+                  </a> <!-- VerifyAddMoreProduct -->
+                  <span class="method-name">VerifyAddMoreProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Eccomerce-class-passed -->
+          <div class="suite-Eccomerce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.Eccomerce.TestCase.TC_002</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,6 +153,21 @@
                   <a name="VerifyCostOfProduct">
                   </a> <!-- VerifyCostOfProduct -->
                   <span class="method-name">VerifyCostOfProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Eccomerce-class-passed -->
+          <div class="suite-Eccomerce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Eccomerce.TestCase.MobileListSortedByName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MobileSortedByName">
+                  </a> <!-- MobileSortedByName -->
+                  <span class="method-name">MobileSortedByName</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -148,7 +188,9 @@
   &lt;test name=&quot;MobileApp Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.Eccomerce.TestCase.MobileListSortedByName&quot;/&gt;
       &lt;class name=&quot;com.Eccomerce.TestCase.TC_002&quot;/&gt;
+      &lt;class name=&quot;com.Eccomerce.TestCase.TC_003&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- MobileApp Test --&gt;
 &lt;/suite&gt; &lt;!-- Eccomerce --&gt;
@@ -162,7 +204,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">MobileApp Test (1 class)</span>
+                <span class="test-name">MobileApp Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,16 +230,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'VerifyCostOfProduct')
 data.setCell(0, 2, 'com.Eccomerce.TestCase.TC_002')
-data.setCell(0, 3, 9903);
+data.setCell(0, 3, 11372);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyAddMoreProduct')
+data.setCell(1, 2, 'com.Eccomerce.TestCase.TC_003')
+data.setCell(1, 3, 9535);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'MobileSortedByName')
+data.setCell(2, 2, 'com.Eccomerce.TestCase.MobileListSortedByName')
+data.setCell(2, 3, 5436);
 window.suiteTableData['Eccomerce']= { tableData: data, tableDiv: 'times-div-Eccomerce'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-Eccomerce">
               </div> <!-- times-div-Eccomerce -->
             </div> <!-- times-div -->
@@ -223,18 +273,48 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.Eccomerce.TestCase.TC_002</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.Eccomerce.TestCase.MobileListSortedByName</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">VerifyCostOfProduct</span>
-                <span class="method-start">8053 ms</span>
+                <span class="method-name">MobileSortedByName</span>
+                <span class="method-start">8463 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17957 ms</span>
+                <span class="method-start">13901 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Eccomerce.TestCase.TC_002</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">15055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyCostOfProduct</span>
+                <span class="method-start">21901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33275 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Eccomerce.TestCase.TC_003</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">34305 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddMoreProduct</span>
+                <span class="method-start">40844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50380 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

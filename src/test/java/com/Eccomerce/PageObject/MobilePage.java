@@ -25,6 +25,8 @@ public class MobilePage extends BaseClass{
 		private WebElement txtPrice;
 	 @FindBy(xpath="//img[@id='product-collection-image-1']")
 	 private WebElement txtsoni;
+	 @FindBy(xpath="//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/ul[1]/li[1]/div[1]/div[3]/button[1]/span[1]/span[1]")
+	 private WebElement xperiaAddtoCart;
 	 
 	 public MobilePage(WebDriver d)
 	 {
@@ -114,5 +116,9 @@ public class MobilePage extends BaseClass{
 	 public void ClickOnXperia()
 	 {
 		 txtsoni.click();
+	 }
+	 public void ClickOnXperiaAddToCart()
+	 {
+		 xperiaAddtoCart.click();
 	 }
 }

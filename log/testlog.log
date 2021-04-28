@@ -36,3 +36,14 @@
 2021-04-28 01:30:55,394 - BaseClass -INFO - price after
 2021-04-28 01:30:55,467 - BaseClass -INFO - compare price before afters
 2021-04-28 01:30:57,468 - BaseClass -INFO - price are same on both pages..
+2021-04-28 12:39:17,215 - BaseClass -INFO - not allow more than 500
+2021-04-28 12:40:40,833 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-28 12:40:44,634 - BaseClass -INFO - products are in sorted order by name..
+2021-04-28 12:40:54,754 - BaseClass -INFO - mobile page opned sucessfully..
+2021-04-28 12:40:54,754 - BaseClass -INFO - price before
+2021-04-28 12:40:54,755 - BaseClass -INFO - calculating price before...
+2021-04-28 12:40:56,806 - BaseClass -INFO - click on xperia..
+2021-04-28 12:41:01,957 - BaseClass -INFO - price after
+2021-04-28 12:41:02,002 - BaseClass -INFO - compare price before afters
+2021-04-28 12:41:04,004 - BaseClass -INFO - price are same on both pages..
+2021-04-28 12:41:21,112 - BaseClass -INFO - not allow more than 500

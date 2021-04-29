@@ -47,3 +47,60 @@
 2021-04-28 12:41:02,002 [main] INFO BaseClass - compare price before afters
 2021-04-28 12:41:04,004 [main] INFO BaseClass - price are same on both pages..
 2021-04-28 12:41:21,112 [main] INFO BaseClass - not allow more than 500
+2021-04-28 23:31:17,564 [main] INFO BaseClass - mobile page opned sucessfully..
+2021-04-28 23:31:20,984 [main] INFO BaseClass - products are in sorted order by name..
+2021-04-28 23:31:30,875 [main] INFO BaseClass - mobile page opned sucessfully..
+2021-04-28 23:31:30,876 [main] INFO BaseClass - price before
+2021-04-28 23:31:30,876 [main] INFO BaseClass - calculating price before...
+2021-04-28 23:31:32,975 [main] INFO BaseClass - click on xperia..
+2021-04-28 23:31:40,011 [main] INFO BaseClass - price after
+2021-04-28 23:31:40,085 [main] INFO BaseClass - compare price before afters
+2021-04-28 23:31:42,086 [main] INFO BaseClass - price are same on both pages..
+2021-04-28 23:32:07,380 [main] INFO BaseClass - not allow more than 500
+2021-04-28 23:32:09,503 [main] INFO BaseClass - Shopping Cart is not  Empty---fail
+2021-04-28 23:39:27,113 [main] INFO BaseClass - mobile page opned sucessfully..
+2021-04-28 23:39:30,786 [main] INFO BaseClass - products are in sorted order by name..
+2021-04-28 23:39:39,934 [main] INFO BaseClass - mobile page opned sucessfully..
+2021-04-28 23:39:39,935 [main] INFO BaseClass - price before
+2021-04-28 23:39:39,936 [main] INFO BaseClass - calculating price before...
+2021-04-28 23:39:42,130 [main] INFO BaseClass - click on xperia..
+2021-04-28 23:39:46,519 [main] INFO BaseClass - price after
+2021-04-28 23:39:46,606 [main] INFO BaseClass - compare price before afters
+2021-04-28 23:39:48,608 [main] INFO BaseClass - price are same on both pages..
+2021-04-28 23:40:07,827 [main] INFO BaseClass - not allow more than 500
+2021-04-28 23:40:09,597 [main] INFO BaseClass - Shopping Cart is not  Empty---fail
+2021-04-29 00:02:00,851 [main] INFO BaseClass - not allow more than 500
+2021-04-29 00:02:02,769 [main] INFO BaseClass - Shopping Cart is not  Empty---fail
+2021-04-29 00:03:01,770 [main] INFO BaseClass - not allow more than 500
+2021-04-29 00:03:04,120 [main] INFO BaseClass - Shopping Cart is Empty--pass
+2021-04-30 00:43:31,323 [main] INFO BaseClass - both mobile are not present in compare popup...fail
+2021-04-30 00:46:09,982 [main] INFO BaseClass - t1
+2021-04-30 00:46:12,075 [main] INFO BaseClass - t2
+2021-04-30 00:46:14,145 [main] INFO BaseClass - t3
+2021-04-30 00:46:16,209 [main] INFO BaseClass - t4
+2021-04-30 00:46:18,258 [main] INFO BaseClass - t5
+2021-04-30 00:46:20,291 [main] INFO BaseClass - t6
+2021-04-30 00:46:22,444 [main] INFO BaseClass - both mobile are not present in compare popup...fail
+2021-04-30 00:51:03,679 [main] INFO BaseClass - t1
+2021-04-30 00:51:05,752 [main] INFO BaseClass - t2
+2021-04-30 00:51:07,804 [main] INFO BaseClass - t3
+2021-04-30 00:51:09,953 [main] INFO BaseClass - t4
+2021-04-30 00:51:12,012 [main] INFO BaseClass - t5
+2021-04-30 00:51:14,051 [main] INFO BaseClass - t6
+2021-04-30 00:51:16,280 [main] INFO BaseClass - both mobile are not present in compare popup...fail
+2021-04-30 01:01:25,407 [main] INFO BaseClass - t1
+2021-04-30 01:01:27,479 [main] INFO BaseClass - t2
+2021-04-30 01:01:29,543 [main] INFO BaseClass - t3
+2021-04-30 01:01:31,596 [main] INFO BaseClass - t4
+2021-04-30 01:01:33,645 [main] INFO BaseClass - t5
+2021-04-30 01:01:35,692 [main] INFO BaseClass - t6
+2021-04-30 01:01:37,693 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 01:01:39,698 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 01:06:50,435 [main] INFO BaseClass - t1
+2021-04-30 01:06:52,501 [main] INFO BaseClass - t2
+2021-04-30 01:06:54,536 [main] INFO BaseClass - t3
+2021-04-30 01:06:56,597 [main] INFO BaseClass - t4
+2021-04-30 01:06:58,645 [main] INFO BaseClass - t5
+2021-04-30 01:07:00,700 [main] INFO BaseClass - t6
+2021-04-30 01:07:02,702 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 01:07:04,708 [main] INFO BaseClass - both mobile are present in compare popup...pass

@@ -10,9 +10,7 @@
 	<test name="MobileApp Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-		<class name="com.Eccomerce.TestCase.MobileListSortedByName" />
-		<class name="com.Eccomerce.TestCase.TC_002" />
-			<class name="com.Eccomerce.TestCase.TC_003" />
+			<class name="com.Eccomerce.TestCase.TC_004" />
 		</classes>
 	</test>
 </suite>

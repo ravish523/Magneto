@@ -68,7 +68,8 @@ public class MobileShopingDetails extends BaseClass {
 	{
 		try
 		{
-			if(txtemptyverify.getText().contains("Shopping Cart is Empty"))
+			System.out.println(txtemptyverify.getText());
+			if(txtemptyverify.getText().contains("SHOPPING CART IS EMPTY"))
 			{
 				logger.info("Shopping Cart is Empty--pass");
 				Assert.assertTrue(true);

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Eccomerce" duration-ms="38521" started-at="2021-04-30T17:50:11Z" finished-at="2021-04-30T17:50:50Z">
+  <suite name="Eccomerce" duration-ms="31320" started-at="2021-04-30T20:16:47Z" finished-at="2021-04-30T20:17:18Z">
     <groups>
     </groups>
-    <test name="MobileApp Test" duration-ms="38521" started-at="2021-04-30T17:50:11Z" finished-at="2021-04-30T17:50:50Z">
-      <class name="com.Eccomerce.TestCase.TC_004">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Eccomerce.TestCase.TC_004@3b6eb2ec]" name="setup" is-config="true" duration-ms="8283" started-at="2021-04-30T23:20:12Z" finished-at="2021-04-30T23:20:20Z">
+    <test name="MobileApp Test" duration-ms="31320" started-at="2021-04-30T20:16:47Z" finished-at="2021-04-30T20:17:18Z">
+      <class name="com.Eccomerce.TestCase.TC_005">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Eccomerce.TestCase.TC_005@3b6eb2ec]" name="setup" is-config="true" duration-ms="10792" started-at="2021-05-01T01:46:47Z" finished-at="2021-05-01T01:46:58Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifyCompareProduct()[pri:0, instance:com.Eccomerce.TestCase.TC_004@3b6eb2ec]" name="VerifyCompareProduct" duration-ms="28439" started-at="2021-04-30T23:20:20Z" finished-at="2021-04-30T23:20:48Z">
+        <test-method status="PASS" signature="VerifyCreateAccountWishlist()[pri:0, instance:com.Eccomerce.TestCase.TC_005@3b6eb2ec]" name="VerifyCreateAccountWishlist" duration-ms="18784" started-at="2021-05-01T01:46:58Z" finished-at="2021-05-01T01:47:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyCompareProduct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Eccomerce.TestCase.TC_004@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="1342" started-at="2021-04-30T23:20:48Z" finished-at="2021-04-30T23:20:50Z">
+        </test-method> <!-- VerifyCreateAccountWishlist -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Eccomerce.TestCase.TC_005@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="1271" started-at="2021-05-01T01:47:17Z" finished-at="2021-05-01T01:47:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Eccomerce.TestCase.TC_004 -->
+      </class> <!-- com.Eccomerce.TestCase.TC_005 -->
     </test> <!-- MobileApp Test -->
   </suite> <!-- Eccomerce -->
 </testng-results>

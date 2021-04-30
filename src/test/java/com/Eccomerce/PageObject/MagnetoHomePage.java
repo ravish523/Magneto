@@ -19,6 +19,8 @@ public class MagnetoHomePage extends BaseClass{
 	 
 	 @FindBy(xpath="//a[contains(text(),'Mobile')]")
 	  private WebElement txtMobile;
+	 @FindBy(xpath="//body[1]/div[1]/div[1]/div[3]/div[1]/div[4]/ul[1]/li[1]/a[1]")
+	  private WebElement txtMyAccount;
 	 
 	 
 	 
@@ -31,6 +33,10 @@ public class MagnetoHomePage extends BaseClass{
 	 public void ClickOnMobile()
 	 {
 		 txtMobile.click();
+	 }
+	 public void ClickOnMyAccount()
+	 {
+		 txtMyAccount.click();
 	 }
 	 
 }

@@ -104,3 +104,35 @@
 2021-04-30 01:07:00,700 - BaseClass -INFO - t6
 2021-04-30 01:07:02,702 - BaseClass -INFO - both mobile are present in compare popup...pass
 2021-04-30 01:07:04,708 - BaseClass -INFO - both mobile are present in compare popup...pass
+2021-04-30 23:02:59,421 - BaseClass -INFO - t1
+2021-04-30 23:03:03,634 - BaseClass -INFO - t2
+2021-04-30 23:03:05,725 - BaseClass -INFO - t3
+2021-04-30 23:03:07,851 - BaseClass -INFO - t4
+2021-04-30 23:03:09,908 - BaseClass -INFO - t5
+2021-04-30 23:03:11,963 - BaseClass -INFO - t6
+2021-04-30 23:03:13,964 - BaseClass -INFO - both mobile are present in compare popup...pass
+2021-04-30 23:03:15,993 - BaseClass -INFO - both mobile are present in compare popup...pass
+2021-04-30 23:09:56,440 - BaseClass -INFO - t1
+2021-04-30 23:09:59,672 - BaseClass -INFO - t2
+2021-04-30 23:10:01,739 - BaseClass -INFO - switching window..
+2021-04-30 23:10:03,859 - BaseClass -INFO - t4
+2021-04-30 23:10:05,903 - BaseClass -INFO - t5
+2021-04-30 23:10:07,975 - BaseClass -INFO - t6
+2021-04-30 23:10:09,976 - BaseClass -INFO - both mobile are present in compare popup...pass
+2021-04-30 23:10:12,024 - BaseClass -INFO - both mobile are present in compare popup...pass
+2021-04-30 23:14:46,273 - BaseClass -INFO - t1
+2021-04-30 23:14:48,362 - BaseClass -INFO - t2
+2021-04-30 23:14:50,424 - BaseClass -INFO - switching window..
+2021-04-30 23:14:52,494 - BaseClass -INFO - t4
+2021-04-30 23:14:54,553 - BaseClass -INFO - t5
+2021-04-30 23:14:56,611 - BaseClass -INFO - t6
+2021-04-30 23:14:58,612 - BaseClass -INFO - both mobile are present in compare popup...pass
+2021-04-30 23:15:00,617 - BaseClass -INFO - both mobile are present in compare popup...pass
+2021-04-30 23:20:32,355 - BaseClass -INFO - t1
+2021-04-30 23:20:34,445 - BaseClass -INFO - t2
+2021-04-30 23:20:36,519 - BaseClass -INFO - switching window..
+2021-04-30 23:20:38,719 - BaseClass -INFO - t4
+2021-04-30 23:20:40,774 - BaseClass -INFO - t5
+2021-04-30 23:20:42,837 - BaseClass -INFO - t6
+2021-04-30 23:20:44,838 - BaseClass -INFO - both mobile are present in compare popup...pass
+2021-04-30 23:20:46,844 - BaseClass -INFO - both mobile are present in compare popup...pass

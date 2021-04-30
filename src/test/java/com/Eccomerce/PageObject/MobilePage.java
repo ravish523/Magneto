@@ -182,18 +182,19 @@ public class MobilePage extends BaseClass{
 	 }
 	 public void SwitchToWindow()
 	 {
-		 String id=driver.getWindowHandle();
-		 System.out.println(driver.switchTo().window(id).getTitle());
-		 driver.switchTo().window(id);
-		 
-		 
-//		 Set<String> ids=driver.getWindowHandles();
-//		 for(String id:ids)
-//		 {
-//			 System.out.println(id);
-//			 System.out.println(driver.switchTo().window(id).getTitle());
-//			 driver.switchTo().window(id);
-//		 }
+		 Set<String> ids=driver.getWindowHandles();
+		 System.out.println(ids);
+		 for(String id:ids)
+		 {
+			 if(driver.switchTo().window(id).getTitle().contains("Products Comparison List - Magento Commerce"))
+			 {
+				 System.out.println(driver.switchTo().window(id).getTitle());
+				 System.out.println(id);
+				 driver.switchTo().window(id);
+				 break; 
+			 }
+		 }
+
 	 }
 	 public void CompareMobilePresent(String s1,String s2)
 	 {

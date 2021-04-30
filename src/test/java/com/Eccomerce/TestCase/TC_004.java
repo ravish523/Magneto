@@ -29,7 +29,7 @@ public class TC_004 extends BaseClass{
 		Thread.sleep(2000);
 		String mainMobile2=mp.Iphonetext();
 		System.out.println(mainMobile2);
-		logger.info("t3");
+		logger.info("switching window..");
 		Thread.sleep(2000);
 		mp.SwitchToWindow();
 		logger.info("t4");

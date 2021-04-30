@@ -104,3 +104,35 @@
 2021-04-30 01:07:00,700 [main] INFO BaseClass - t6
 2021-04-30 01:07:02,702 [main] INFO BaseClass - both mobile are present in compare popup...pass
 2021-04-30 01:07:04,708 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 23:02:59,421 [main] INFO BaseClass - t1
+2021-04-30 23:03:03,634 [main] INFO BaseClass - t2
+2021-04-30 23:03:05,725 [main] INFO BaseClass - t3
+2021-04-30 23:03:07,851 [main] INFO BaseClass - t4
+2021-04-30 23:03:09,908 [main] INFO BaseClass - t5
+2021-04-30 23:03:11,963 [main] INFO BaseClass - t6
+2021-04-30 23:03:13,964 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 23:03:15,993 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 23:09:56,440 [main] INFO BaseClass - t1
+2021-04-30 23:09:59,672 [main] INFO BaseClass - t2
+2021-04-30 23:10:01,739 [main] INFO BaseClass - switching window..
+2021-04-30 23:10:03,859 [main] INFO BaseClass - t4
+2021-04-30 23:10:05,903 [main] INFO BaseClass - t5
+2021-04-30 23:10:07,975 [main] INFO BaseClass - t6
+2021-04-30 23:10:09,976 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 23:10:12,024 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 23:14:46,273 [main] INFO BaseClass - t1
+2021-04-30 23:14:48,362 [main] INFO BaseClass - t2
+2021-04-30 23:14:50,424 [main] INFO BaseClass - switching window..
+2021-04-30 23:14:52,494 [main] INFO BaseClass - t4
+2021-04-30 23:14:54,553 [main] INFO BaseClass - t5
+2021-04-30 23:14:56,611 [main] INFO BaseClass - t6
+2021-04-30 23:14:58,612 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 23:15:00,617 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 23:20:32,355 [main] INFO BaseClass - t1
+2021-04-30 23:20:34,445 [main] INFO BaseClass - t2
+2021-04-30 23:20:36,519 [main] INFO BaseClass - switching window..
+2021-04-30 23:20:38,719 [main] INFO BaseClass - t4
+2021-04-30 23:20:40,774 [main] INFO BaseClass - t5
+2021-04-30 23:20:42,837 [main] INFO BaseClass - t6
+2021-04-30 23:20:44,838 [main] INFO BaseClass - both mobile are present in compare popup...pass
+2021-04-30 23:20:46,844 [main] INFO BaseClass - both mobile are present in compare popup...pass

@@ -11,16 +11,4 @@
       <class name="com.Eccomerce.TestCase.TC_004"/>
     </classes>
   </test> <!-- MobileApp Test -->
-  <test name="MobileApp Test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.Eccomerce.TestCase.TC_004">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="VerifyCompareProduct"/>
-        </methods>
-      </class> <!-- com.Eccomerce.TestCase.TC_004 -->
-    </classes>
-  </test> <!-- MobileApp Test(failed) -->
 </suite> <!-- Failed suite [Eccomerce] -->

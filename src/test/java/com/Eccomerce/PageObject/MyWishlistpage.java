@@ -23,6 +23,9 @@ public WebDriver driver;
 	private WebElement txtshartoemail;
 	@FindBy(xpath="//span[contains(text(),'Your Wishlist has been shared.')]")
 	private WebElement txtshareWishListcnf;
+	@FindBy(xpath="//span[contains(text(),'Add to Cart')]")
+	private WebElement txtAddToCart;
+	
 	
 	 public MyWishlistpage(WebDriver d)
 	 {
@@ -64,6 +67,10 @@ public WebDriver driver;
 		 {
 			 System.out.println("Exception message :"+e.getMessage());
 		 }
+	 }
+	 public void ClickOnAddToCart()
+	 {
+		 txtAddToCart.click();
 	 }
 
 }

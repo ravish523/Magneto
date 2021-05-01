@@ -13,9 +13,12 @@ public class CreateAccountAndLoginPage extends BaseClass {
 	 
 	 @FindBy(xpath="//span[contains(text(),'Create an Account')]")
 	  private WebElement txtCreateAccount;
-	 
-	 
-	 
+	 @FindBy(xpath="//input[@id='email']")
+	 private WebElement txtEmail;
+	 @FindBy(xpath="//input[@id='pass']")
+	 private WebElement txtpass;
+	 @FindBy(xpath="//span[contains(text(),'Login')]")
+	 private WebElement txtlogin;
 	 
 	 public CreateAccountAndLoginPage(WebDriver d)
 	 {
@@ -25,6 +28,12 @@ public class CreateAccountAndLoginPage extends BaseClass {
 	 public void ClickOnCreateAccount()
 	 {
 		 txtCreateAccount.click();
+	 }
+	 public void LoginToApplication(String email,String pass)
+	 {
+		 txtEmail.sendKeys(email);
+		 txtpass.sendKeys(pass);
+		 txtlogin.click(); 
 	 }
 		 
 	 

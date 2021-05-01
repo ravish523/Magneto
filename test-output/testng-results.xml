@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Eccomerce" duration-ms="29064" started-at="2021-05-01T05:03:42Z" finished-at="2021-05-01T05:04:11Z">
+  <suite name="Eccomerce" duration-ms="46043" started-at="2021-05-01T06:58:59Z" finished-at="2021-05-01T06:59:45Z">
     <groups>
     </groups>
-    <test name="MobileApp Test" duration-ms="29064" started-at="2021-05-01T05:03:42Z" finished-at="2021-05-01T05:04:11Z">
-      <class name="com.Eccomerce.TestCase.TC_005">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Eccomerce.TestCase.TC_005@3b6eb2ec]" name="setup" is-config="true" duration-ms="8596" started-at="2021-05-01T10:33:43Z" finished-at="2021-05-01T10:33:51Z">
+    <test name="MobileApp Test" duration-ms="46043" started-at="2021-05-01T06:58:59Z" finished-at="2021-05-01T06:59:45Z">
+      <class name="com.Eccomerce.TestCase.TC_006">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Eccomerce.TestCase.TC_006@3b6eb2ec]" name="setup" is-config="true" duration-ms="17996" started-at="2021-05-01T12:29:00Z" finished-at="2021-05-01T12:29:18Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifyCreateAccountWishlist()[pri:0, instance:com.Eccomerce.TestCase.TC_005@3b6eb2ec]" name="VerifyCreateAccountWishlist" duration-ms="18817" started-at="2021-05-01T10:33:51Z" finished-at="2021-05-01T10:34:10Z">
+        <test-method status="PASS" signature="VerifyUserIsAbleToPurchase()[pri:0, instance:com.Eccomerce.TestCase.TC_006@3b6eb2ec]" name="VerifyUserIsAbleToPurchase" duration-ms="26323" started-at="2021-05-01T12:29:18Z" finished-at="2021-05-01T12:29:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyCreateAccountWishlist -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Eccomerce.TestCase.TC_005@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="1121" started-at="2021-05-01T10:34:10Z" finished-at="2021-05-01T10:34:11Z">
+        </test-method> <!-- VerifyUserIsAbleToPurchase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Eccomerce.TestCase.TC_006@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="1249" started-at="2021-05-01T12:29:44Z" finished-at="2021-05-01T12:29:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Eccomerce.TestCase.TC_005 -->
+      </class> <!-- com.Eccomerce.TestCase.TC_006 -->
     </test> <!-- MobileApp Test -->
   </suite> <!-- Eccomerce -->
 </testng-results>

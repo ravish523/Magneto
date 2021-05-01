@@ -8,7 +8,7 @@
   <test name="MobileApp Test">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.Eccomerce.TestCase.TC_005"/>
+      <class name="com.Eccomerce.TestCase.TC_006"/>
     </classes>
   </test> <!-- MobileApp Test -->
 </suite> <!-- Failed suite [Eccomerce] -->

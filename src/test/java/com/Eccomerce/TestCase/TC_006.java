@@ -32,7 +32,18 @@ public class TC_006 extends BaseClass{
 		scp.ClickOnProccedToCheckOut();
 		Thread.sleep(2000);
 		CheckOutPage  cop=new CheckOutPage(driver);
-		cop.EnterShippingAddress(add, add, add, add, add, add, add, add, 824113, "India","9430822576");
+	    //cop.EnterShippingAddress(add, add, add, add, add, add, add, add, 824113, "India","9430822576");
+		cop.ClickOnBillingInformationcontinue();
+		Thread.sleep(2000);
+		cop.clickOnShipingMethodContune();
+		Thread.sleep(2000);
+		cop.ClickOnMoneyOrderRadioBitton();
+		Thread.sleep(2000);
+		cop.ClickOnPaymentInformationContunue();
+		Thread.sleep(2000);
+		cop.ClickOnPlaceOrder();		
+		Thread.sleep(2000);
+		cop.verifyOrderPlaced();
 		Thread.sleep(2000);
 				
 		

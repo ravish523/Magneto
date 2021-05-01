@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.Eccomerce.TestCase.BaseClass;
 
+import junit.framework.Assert;
+
 public class CheckOutPage extends BaseClass{
 	
 	public WebDriver driver;
@@ -37,13 +39,30 @@ public class CheckOutPage extends BaseClass{
 	private WebElement RadioButton;
 	@FindBy(xpath="//body/div[1]/div[1]/div[2]/div[1]/div[1]/ol[1]/li[1]/div[2]/form[1]/div[1]/div[1]/button[1]")
 	private WebElement txtContinue;
-	
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ol[1]/li[3]/div[2]/form[1]/div[3]/button[1]/span[1]/span[1]")
+	private WebElement txtShipingmethodContinue;
+	@FindBy(xpath="//input[@id='p_method_checkmo']")
+	private WebElement txtmoneyOrderbutton;
+	@FindBy(xpath="//body/div[1]/div[1]/div[2]/div[1]/div[1]/ol[1]/li[4]/div[2]/div[2]/button[1]")
+	private WebElement txtPaymentInformationContunue;
+	@FindBy(xpath="//button[@title='Place Order']")
+	private WebElement txtPlaceOrder;
+	@FindBy(xpath="//h1[contains(text(),'Your order has been received.')]")
+	private WebElement txtcnfOrderMessage;
+	@FindBy(xpath="//body/div[1]/div[1]/div[2]/div[1]/div[1]//p[1]/a")
+	private WebElement txtOrderid;
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ol[1]/li[1]/div[2]/form[1]/div[1]/div[1]/button[1]/span[1]/span[1]")
+	private WebElement txtBinformationContunue;
 	
 	public CheckOutPage(WebDriver d)
 	{
 		driver=d;
 		PageFactory.initElements(d, this);
 		
+	}
+	public void ClickOnBillingInformationcontinue()
+	{
+		txtBinformationContunue.click();
 	}
 	
 	public void EnterShippingAddress(String fname,String mname,String lnmae,String company,String Add1,String Add2,String city,String state,int zipcode,String country,String telephone)
@@ -63,5 +82,50 @@ public class CheckOutPage extends BaseClass{
 		RadioButton.click();
 		txtContinue.click();
 	}
+	public void clickOnShipingMethodContune()
+	{
+		txtShipingmethodContinue.click();
+	}
+	public void ClickOnMoneyOrderRadioBitton()
+	{
+		txtmoneyOrderbutton.click();
+	}
+	public void ClickOnPaymentInformationContunue()
+	{
+		txtPaymentInformationContunue.click();
+	}
+	public void ClickOnPlaceOrder()
+	{
+		txtPlaceOrder.click();
+	}
+	public void verifyOrderPlaced()
+	{
+		try
+		{
+			if(txtcnfOrderMessage.getText().contains("YOUR ORDER HAS BEEN RECEIVED."))
+			{
+				logger.info("Thank you for your purchase! Order id :"+txtOrderid.getText());
+				Assert.assertTrue(true);
+			}
+			else
+			{
+				logger.info("order is not purchase purchase!--fail ");
+				CaptureScreen(driver,"VerifyUserIsAbleToPurchase");
+				Assert.assertTrue(false);
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println("Exception Message is :"+e.getMessage());
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 
 }

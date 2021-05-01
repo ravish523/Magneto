@@ -139,3 +139,6 @@
 2021-05-01 01:47:07,357 - BaseClass -INFO - account created sucessfully...pass
 2021-05-01 10:34:00,536 - BaseClass -INFO - account created sucessfully...pass
 2021-05-01 10:34:10,656 - BaseClass -INFO - Wishlist has been shared sucessfully....Pass
+2021-05-01 23:58:14,278 - BaseClass -INFO - order is not purchase purchase!--fail 
+2021-05-02 00:02:22,906 - BaseClass -INFO - order is not purchase purchase!--fail 
+2021-05-02 00:06:13,571 - BaseClass -INFO - Thank you for your purchase! Order id :100014018

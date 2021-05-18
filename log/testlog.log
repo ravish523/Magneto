@@ -165,3 +165,39 @@
 2021-05-02 11:48:01,436 - BaseClass -INFO - window id:Order # 100014018
 2021-05-02 11:48:07,539 - BaseClass -INFO - order pdf is saved in default location...pass
 2021-05-18 15:11:30,562 - BaseClass -INFO - Thank you for your purchase! Order id :100014091
+2021-05-18 15:54:16,552 - BaseClass -INFO - k1
+2021-05-18 15:54:17,025 - BaseClass -INFO - k2
+2021-05-18 15:54:17,071 - BaseClass -INFO - k3
+2021-05-18 15:58:03,657 - BaseClass -INFO - k1
+2021-05-18 15:58:03,745 - BaseClass -INFO - k2
+2021-05-18 15:58:03,951 - BaseClass -INFO - k3
+2021-05-18 16:00:02,929 - BaseClass -INFO - k1
+2021-05-18 16:00:03,167 - BaseClass -INFO - k2
+2021-05-18 16:00:03,221 - BaseClass -INFO - k3
+2021-05-18 16:00:07,223 - BaseClass -INFO - k6
+2021-05-18 16:04:19,351 - BaseClass -INFO - k1
+2021-05-18 16:04:19,428 - BaseClass -INFO - k2
+2021-05-18 16:04:19,468 - BaseClass -INFO - k3
+2021-05-18 16:04:23,473 - BaseClass -INFO - k6
+2021-05-18 16:04:23,474 - BaseClass -INFO - k4
+2021-05-18 16:04:27,475 - BaseClass -INFO - k5
+2021-05-18 16:08:06,033 - BaseClass -INFO - k1
+2021-05-18 16:08:06,121 - BaseClass -INFO - k2
+2021-05-18 16:08:06,162 - BaseClass -INFO - k3
+2021-05-18 16:12:04,020 - BaseClass -INFO - k1
+2021-05-18 16:12:04,246 - BaseClass -INFO - k2
+2021-05-18 16:12:04,293 - BaseClass -INFO - k3
+2021-05-18 20:30:49,477 - BaseClass -INFO - k1
+2021-05-18 20:30:50,819 - BaseClass -INFO - k2
+2021-05-18 20:48:03,363 - BaseClass -INFO - k1
+2021-05-18 20:48:03,614 - BaseClass -INFO - k2
+2021-05-18 20:51:32,064 - BaseClass -INFO - k1
+2021-05-18 20:51:32,116 - BaseClass -INFO - k2
+2021-05-18 20:53:32,226 - BaseClass -INFO - k1
+2021-05-18 20:53:32,284 - BaseClass -INFO - k2
+2021-05-18 20:56:14,414 - BaseClass -INFO - k1
+2021-05-18 20:56:14,480 - BaseClass -INFO - k2
+2021-05-18 20:59:13,446 - BaseClass -INFO - k1
+2021-05-18 20:59:13,509 - BaseClass -INFO - k2
+2021-05-18 21:00:51,675 - BaseClass -INFO - k1
+2021-05-18 21:00:51,723 - BaseClass -INFO - k2

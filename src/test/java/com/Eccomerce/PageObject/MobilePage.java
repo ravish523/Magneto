@@ -48,6 +48,8 @@ public class MobilePage extends BaseClass{
 	 private WebElement txtpopupIphone;
 	 @FindBy(xpath="//span[contains(text(),'Close Window')]")
 	 private WebElement txtClosePopup;
+	 @FindBy(xpath="//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/ul[1]/li[2]/div[1]/div[3]/button[1]/span[1]/span[1]")
+	 private WebElement txtIphoneAddtoCart;
 	
 	
 	 
@@ -221,6 +223,10 @@ public class MobilePage extends BaseClass{
 	 public void ClickOnCloseCompare()
 	 {
 		 txtClosePopup.click();
+	 }
+	 public void ClickOnAddToCartIphone()
+	 {
+		 txtIphoneAddtoCart.click();
 	 }
 	 
 	 

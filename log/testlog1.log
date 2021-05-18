@@ -165,3 +165,39 @@
 2021-05-02 11:48:01,436 [main] INFO BaseClass - window id:Order # 100014018
 2021-05-02 11:48:07,539 [main] INFO BaseClass - order pdf is saved in default location...pass
 2021-05-18 15:11:30,562 [main] INFO BaseClass - Thank you for your purchase! Order id :100014091
+2021-05-18 15:54:16,552 [main] INFO BaseClass - k1
+2021-05-18 15:54:17,025 [main] INFO BaseClass - k2
+2021-05-18 15:54:17,071 [main] INFO BaseClass - k3
+2021-05-18 15:58:03,657 [main] INFO BaseClass - k1
+2021-05-18 15:58:03,745 [main] INFO BaseClass - k2
+2021-05-18 15:58:03,951 [main] INFO BaseClass - k3
+2021-05-18 16:00:02,929 [main] INFO BaseClass - k1
+2021-05-18 16:00:03,167 [main] INFO BaseClass - k2
+2021-05-18 16:00:03,221 [main] INFO BaseClass - k3
+2021-05-18 16:00:07,223 [main] INFO BaseClass - k6
+2021-05-18 16:04:19,351 [main] INFO BaseClass - k1
+2021-05-18 16:04:19,428 [main] INFO BaseClass - k2
+2021-05-18 16:04:19,468 [main] INFO BaseClass - k3
+2021-05-18 16:04:23,473 [main] INFO BaseClass - k6
+2021-05-18 16:04:23,474 [main] INFO BaseClass - k4
+2021-05-18 16:04:27,475 [main] INFO BaseClass - k5
+2021-05-18 16:08:06,033 [main] INFO BaseClass - k1
+2021-05-18 16:08:06,121 [main] INFO BaseClass - k2
+2021-05-18 16:08:06,162 [main] INFO BaseClass - k3
+2021-05-18 16:12:04,020 [main] INFO BaseClass - k1
+2021-05-18 16:12:04,246 [main] INFO BaseClass - k2
+2021-05-18 16:12:04,293 [main] INFO BaseClass - k3
+2021-05-18 20:30:49,477 [main] INFO BaseClass - k1
+2021-05-18 20:30:50,819 [main] INFO BaseClass - k2
+2021-05-18 20:48:03,363 [main] INFO BaseClass - k1
+2021-05-18 20:48:03,614 [main] INFO BaseClass - k2
+2021-05-18 20:51:32,064 [main] INFO BaseClass - k1
+2021-05-18 20:51:32,116 [main] INFO BaseClass - k2
+2021-05-18 20:53:32,226 [main] INFO BaseClass - k1
+2021-05-18 20:53:32,284 [main] INFO BaseClass - k2
+2021-05-18 20:56:14,414 [main] INFO BaseClass - k1
+2021-05-18 20:56:14,480 [main] INFO BaseClass - k2
+2021-05-18 20:59:13,446 [main] INFO BaseClass - k1
+2021-05-18 20:59:13,509 [main] INFO BaseClass - k2
+2021-05-18 21:00:51,675 [main] INFO BaseClass - k1
+2021-05-18 21:00:51,723 [main] INFO BaseClass - k2

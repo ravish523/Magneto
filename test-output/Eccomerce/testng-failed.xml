@@ -8,7 +8,19 @@
   <test name="MobileApp Test">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.Eccomerce.TestCase.TC_008"/>
+      <class name="com.Eccomerce.TestCase.TC_009"/>
     </classes>
   </test> <!-- MobileApp Test -->
+  <test name="MobileApp Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Eccomerce.TestCase.TC_009">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyCoupon"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Eccomerce.TestCase.TC_009 -->
+    </classes>
+  </test> <!-- MobileApp Test(failed) -->
 </suite> <!-- Failed suite [Eccomerce] -->

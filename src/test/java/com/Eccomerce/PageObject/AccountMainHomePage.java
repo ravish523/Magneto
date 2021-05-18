@@ -20,6 +20,8 @@ public class AccountMainHomePage extends BaseClass {
 	 private WebElement txtTV;
 	 @FindBy(xpath="//body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[8]/a[1]")
 	 private WebElement txtMyWishList;
+	 @FindBy(xpath="//a[contains(text(),'My Orders')]")
+	 private WebElement txtMyorder;
 	 
 	 
 	 
@@ -59,6 +61,10 @@ public class AccountMainHomePage extends BaseClass {
 	 public void ClickOnMyWishList()
 	 {
 		 txtMyWishList.click();
+	 }
+	 public void ClickOnMyOrder()
+	 {
+		 txtMyorder.click();
 	 }
 	 
 	 

@@ -13,6 +13,10 @@ public class ShopingCartPage extends BaseClass {
 	
 	@FindBy(xpath="//body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[1]/button[1]/span[1]/span[1]")
 	private WebElement txtProccedCheckOut;
+	@FindBy(xpath="//tbody/tr[1]/td[4]/input[1]")
+	private WebElement txtcartqnty;
+	@FindBy(xpath="//tbody/tr[1]/td[4]/button[1]/span[1]")
+	private WebElement txtUpdate;
 	
 	public ShopingCartPage(WebDriver d)
 	{
@@ -22,6 +26,21 @@ public class ShopingCartPage extends BaseClass {
 	public void ClickOnProccedToCheckOut()
 	{
 		txtProccedCheckOut.click();
+	}
+	public void UpdateQntaty(int num)
+	{
+		txtcartqnty.clear();
+		txtcartqnty.sendKeys(String.valueOf(num));
+	}
+	public void ClickOnUpdateQntaty()
+	{
+		try{
+		txtUpdate.click();
+		}
+		catch(Exception e)
+		{
+			System.out.println("message"+e.getMessage());
+		}
 	}
 
 }

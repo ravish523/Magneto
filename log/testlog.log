@@ -142,3 +142,26 @@
 2021-05-01 23:58:14,278 - BaseClass -INFO - order is not purchase purchase!--fail 
 2021-05-02 00:02:22,906 - BaseClass -INFO - order is not purchase purchase!--fail 
 2021-05-02 00:06:13,571 - BaseClass -INFO - Thank you for your purchase! Order id :100014018
+2021-05-02 11:29:37,152 - BaseClass -INFO - order pdf is saved in default location...pass
+2021-05-02 11:34:09,574 - BaseClass -INFO - window id:CDwindow-B2641CD9CF9AF1CFB6AAD003524BE2A3
+2021-05-02 11:34:09,693 - BaseClass -INFO - window id:Order # 100014018
+2021-05-02 11:34:15,992 - BaseClass -INFO - order pdf is saved in default location...pass
+2021-05-02 11:34:15,992 - BaseClass -INFO - window id:CDwindow-DB944FA0C64961C505EA989A9E0957CF
+2021-05-02 11:34:16,023 - BaseClass -INFO - window id:Print Order # 100014018
+2021-05-02 11:34:22,033 - BaseClass -INFO - order pdf is saved in default location...pass
+2021-05-02 11:34:22,034 - BaseClass -INFO - window id:CDwindow-CCD0ED30CE0A872BB41AFD5167392D5C
+2021-05-02 11:34:22,107 - BaseClass -INFO - window id:Print Order # 100014018
+2021-05-02 11:34:28,117 - BaseClass -INFO - order pdf is saved in default location...pass
+2021-05-02 11:46:08,349 - BaseClass -INFO - window id:CDwindow-3BDC97F61509559D3944B0CA1ECED729
+2021-05-02 11:46:08,396 - BaseClass -INFO - window id:Order # 100014018
+2021-05-02 11:46:14,684 - BaseClass -INFO - order pdf is saved in default location...pass
+2021-05-02 11:46:14,685 - BaseClass -INFO - window id:CDwindow-98198848BA2C806B46E5D0184966EB46
+2021-05-02 11:46:14,726 - BaseClass -INFO - window id:Print Order # 100014018
+2021-05-02 11:46:20,735 - BaseClass -INFO - order pdf is saved in default location...pass
+2021-05-02 11:46:20,735 - BaseClass -INFO - window id:CDwindow-2CEB035F47F4CE59E977257FF0EFDC91
+2021-05-02 11:46:20,774 - BaseClass -INFO - window id:Print Order # 100014018
+2021-05-02 11:46:26,784 - BaseClass -INFO - order pdf is saved in default location...pass
+2021-05-02 11:48:01,354 - BaseClass -INFO - window id:CDwindow-A6774E48B2A165056AD2B6DF5287024B
+2021-05-02 11:48:01,436 - BaseClass -INFO - window id:Order # 100014018
+2021-05-02 11:48:07,539 - BaseClass -INFO - order pdf is saved in default location...pass
+2021-05-18 15:11:30,562 - BaseClass -INFO - Thank you for your purchase! Order id :100014091

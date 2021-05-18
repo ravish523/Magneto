@@ -60,7 +60,7 @@ import com.Eccomerce.Utilities.ReadConfig;
 		    @AfterMethod
 		    public void tearDown()
 		    {
-		    	driver.quit();
+		    	//driver.quit();
 		    }
 		    
 		    public void CaptureScreen(WebDriver driver,String testname) throws IOException

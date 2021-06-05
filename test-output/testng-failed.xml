@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Eccomerce]">
-  <parameter name="browser" value="chrome"/>
-  <listeners>
-    <listener class-name="com.Eccomerce.Utilities.Reporting"/>
-  </listeners>
-  <test name="MobileApp Test">
-    <parameter name="browser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="com.Eccomerce.TestCase.TC_009"/>
+      <class name="com.Eccomerce.TestCase.demoInterview"/>
     </classes>
-  </test> <!-- MobileApp Test -->
-  <test name="MobileApp Test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.Eccomerce.TestCase.TC_009">
-        <methods>
-          <include name="tearDown"/>
-          <include name="VerifyCoupon"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.Eccomerce.TestCase.TC_009 -->
-    </classes>
-  </test> <!-- MobileApp Test(failed) -->
-</suite> <!-- Failed suite [Eccomerce] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
